@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eduardodgraziano/static/css/main.89e8e536.chunk.css",
-    "main.js": "/eduardodgraziano/static/js/main.bc3f0ffb.chunk.js",
-    "main.js.map": "/eduardodgraziano/static/js/main.bc3f0ffb.chunk.js.map",
+    "main.js": "/eduardodgraziano/static/js/main.e0713988.chunk.js",
+    "main.js.map": "/eduardodgraziano/static/js/main.e0713988.chunk.js.map",
     "runtime-main.js": "/eduardodgraziano/static/js/runtime-main.fb0e33ba.js",
     "runtime-main.js.map": "/eduardodgraziano/static/js/runtime-main.fb0e33ba.js.map",
     "static/css/2.c1256375.chunk.css": "/eduardodgraziano/static/css/2.c1256375.chunk.css",
@@ -14,24 +14,24 @@
     "static/css/2.c1256375.chunk.css.map": "/eduardodgraziano/static/css/2.c1256375.chunk.css.map",
     "static/css/main.89e8e536.chunk.css.map": "/eduardodgraziano/static/css/main.89e8e536.chunk.css.map",
     "static/js/2.c9f8bbc9.chunk.js.LICENSE.txt": "/eduardodgraziano/static/js/2.c9f8bbc9.chunk.js.LICENSE.txt",
-    "static/media/eCommerce.20a29621.png": "/eduardodgraziano/static/media/eCommerce.20a29621.png",
-    "static/media/img.df07b7a5.png": "/eduardodgraziano/static/media/img.df07b7a5.png",
-    "static/media/img1.60f30058.png": "/eduardodgraziano/static/media/img1.60f30058.png",
-    "static/media/img2.27735e5b.png": "/eduardodgraziano/static/media/img2.27735e5b.png",
-    "static/media/img3.61cdb630.png": "/eduardodgraziano/static/media/img3.61cdb630.png",
-    "static/media/img4.057d0de8.png": "/eduardodgraziano/static/media/img4.057d0de8.png",
-    "static/media/login.95e92e36.png": "/eduardodgraziano/static/media/login.95e92e36.png",
-    "static/media/membershpe.361533df.png": "/eduardodgraziano/static/media/membershpe.361533df.png",
+    "static/media/eCommerce.e6340eca.webp": "/eduardodgraziano/static/media/eCommerce.e6340eca.webp",
+    "static/media/img.6b20826c.webp": "/eduardodgraziano/static/media/img.6b20826c.webp",
+    "static/media/img1.34fcd82b.webp": "/eduardodgraziano/static/media/img1.34fcd82b.webp",
+    "static/media/img2.c5a729cb.webp": "/eduardodgraziano/static/media/img2.c5a729cb.webp",
+    "static/media/img3.d5551d1e.webp": "/eduardodgraziano/static/media/img3.d5551d1e.webp",
+    "static/media/img4.12c985d7.webp": "/eduardodgraziano/static/media/img4.12c985d7.webp",
+    "static/media/login.743da2e7.webp": "/eduardodgraziano/static/media/login.743da2e7.webp",
+    "static/media/membershpe.f9f41827.webp": "/eduardodgraziano/static/media/membershpe.f9f41827.webp",
     "static/media/profile.6d0ccb90.webp": "/eduardodgraziano/static/media/profile.6d0ccb90.webp",
-    "static/media/q&a.56f16a68.png": "/eduardodgraziano/static/media/q&a.56f16a68.png",
-    "static/media/register.4c6d98c8.png": "/eduardodgraziano/static/media/register.4c6d98c8.png",
-    "static/media/theWorks.35a59156.png": "/eduardodgraziano/static/media/theWorks.35a59156.png"
+    "static/media/qa.d86fd281.webp": "/eduardodgraziano/static/media/qa.d86fd281.webp",
+    "static/media/register.958ae682.webp": "/eduardodgraziano/static/media/register.958ae682.webp",
+    "static/media/theWorks.e50fbdf5.webp": "/eduardodgraziano/static/media/theWorks.e50fbdf5.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.fb0e33ba.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.c9f8bbc9.chunk.js",
     "static/css/main.89e8e536.chunk.css",
-    "static/js/main.bc3f0ffb.chunk.js"
+    "static/js/main.e0713988.chunk.js"
   ]
 }
