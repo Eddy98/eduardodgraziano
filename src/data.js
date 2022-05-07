@@ -1,16 +1,16 @@
-import membershpe from './assets/membershpe.png';
-import login from './assets/login.png';
-import register from './assets/register.png';
+import membershpe from './assets/membershpe.webp';
+import login from './assets/login.webp';
+import register from './assets/register.webp';
 
-import eCommerce from './assets/eCommerce.png';
-import qa from './assets/q&a.png';
-import theWorks from './assets/theWorks.png';
+import eCommerce from './assets/eCommerce.webp';
+import qa from './assets/qa.webp';
+import theWorks from './assets/theWorks.webp';
 
-import img from './assets/img.png';
-import img1 from './assets/img1.png';
-import img2 from './assets/img2.png';
-import img3 from './assets/img3.png';
-import img4 from './assets/img4.png';
+import img from './assets/img.webp';
+import img1 from './assets/img1.webp';
+import img2 from './assets/img2.webp';
+import img3 from './assets/img3.webp';
+import img4 from './assets/img4.webp';
 
 const data = {
   name: 'Eduardo D. Graziano',

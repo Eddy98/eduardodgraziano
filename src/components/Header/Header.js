@@ -6,7 +6,7 @@ import {
   PicWrapper,
   IntroductionText,
 } from './styles';
-import pic from '../../assets/profile.jpg';
+import pic from '../../assets/profile.webp';
 import data from '../../data';
 
 const Header = () => {
@@ -17,8 +17,8 @@ const Header = () => {
         <HeaderText>{name}</HeaderText>
         <IntroductionText startDelay={1000}>{introduction}</IntroductionText>
         <PicWrapper>
-          <Col lg={7}>
-            <HeaderPic src={pic} />
+          <Col lg={7} style={{textAlign: 'center'}}>
+            <HeaderPic src={pic} style={{width: '20rem', height: '20rem'}}/>
           </Col>
         </PicWrapper>
       </Col>
