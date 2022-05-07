@@ -10,17 +10,21 @@ const Contact = () => {
 
   useEffect(() => {
     async function fetchData() {
-      let res = await fetch(weather.url);
-      res = await res.json();
-      setState({
-        city: res.name,
-        temp: res.main.temp,
-        description: res.weather[0].description
-          .toLowerCase()
-          .split(' ')
-          .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-          .join(' '),
-      });
+      try {
+        let res = await fetch(weather.url);
+        res = await res.json();
+        setState({
+          city: res.name,
+          temp: res.main.temp,
+          description: res.weather[0].description
+            .toLowerCase()
+            .split(' ')
+            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(' '),
+        });
+      } catch (err) {
+        console.log('Error Fetching: ', err);
+      }
     }
     fetchData();
   }, []);
@@ -54,7 +58,7 @@ const Contact = () => {
               <></>
             ) : (
               <>
-                {state && (
+                {Object.keys(state).length > 0 && (
                   <WeatherWrapper>
                     <WeatherText>
                       {`What's the weather like in ${state.city}?`}
