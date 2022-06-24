@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eduardodgraziano/static/css/main.89e8e536.chunk.css",
-    "main.js": "/eduardodgraziano/static/js/main.5d9d1115.chunk.js",
-    "main.js.map": "/eduardodgraziano/static/js/main.5d9d1115.chunk.js.map",
+    "main.css": "/eduardodgraziano/static/css/main.e07551ec.chunk.css",
+    "main.js": "/eduardodgraziano/static/js/main.60eb1177.chunk.js",
+    "main.js.map": "/eduardodgraziano/static/js/main.60eb1177.chunk.js.map",
     "runtime-main.js": "/eduardodgraziano/static/js/runtime-main.fb0e33ba.js",
     "runtime-main.js.map": "/eduardodgraziano/static/js/runtime-main.fb0e33ba.js.map",
     "static/css/2.c1256375.chunk.css": "/eduardodgraziano/static/css/2.c1256375.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.65672ae6.chunk.js.map": "/eduardodgraziano/static/js/3.65672ae6.chunk.js.map",
     "index.html": "/eduardodgraziano/index.html",
     "static/css/2.c1256375.chunk.css.map": "/eduardodgraziano/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.89e8e536.chunk.css.map": "/eduardodgraziano/static/css/main.89e8e536.chunk.css.map",
+    "static/css/main.e07551ec.chunk.css.map": "/eduardodgraziano/static/css/main.e07551ec.chunk.css.map",
     "static/js/2.c9f8bbc9.chunk.js.LICENSE.txt": "/eduardodgraziano/static/js/2.c9f8bbc9.chunk.js.LICENSE.txt",
     "static/media/eCommerce.e6340eca.webp": "/eduardodgraziano/static/media/eCommerce.e6340eca.webp",
     "static/media/img.6b20826c.webp": "/eduardodgraziano/static/media/img.6b20826c.webp",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.fb0e33ba.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.c9f8bbc9.chunk.js",
-    "static/css/main.89e8e536.chunk.css",
-    "static/js/main.5d9d1115.chunk.js"
+    "static/css/main.e07551ec.chunk.css",
+    "static/js/main.60eb1177.chunk.js"
   ]
 }
