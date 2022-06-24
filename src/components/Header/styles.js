@@ -14,12 +14,15 @@ const HeaderText = styled.p`
   font-family: 'Nunito';
   margin: 0 0 1rem;
   text-align: center;
-  color: white;
+  color: #000000;
 `;
 
 const HeaderPic = styled.img`
   border-radius: 50%;
   width: 100%;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: #00175a;
 `;
 
 const PicWrapper = styled.div`
@@ -33,7 +36,7 @@ const IntroductionText = styled(Typist)`
   font-family: 'Nunito';
   margin: 0 0 2rem;
   text-align: center;
-  color: white;
+  color: #000000;
 `;
 
 export { HeaderContainer, HeaderText, HeaderPic, PicWrapper, IntroductionText };

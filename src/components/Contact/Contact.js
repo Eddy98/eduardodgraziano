@@ -35,19 +35,19 @@ const Contact = () => {
         <SocialIcon
           url='https://www.linkedin.com/in/eduardo-graziano-7795ab166/'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60, marginRight: '1rem' }}
         />
         <SocialIcon
           url='https://github.com/Eddy98'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60, marginRight: '1rem' }}
         />
         <SocialIcon
           url='mailto:eduardodgraziano@gmail.com'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60 }}
         />
       </Col>
