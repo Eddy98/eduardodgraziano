@@ -10,17 +10,21 @@ const Contact = () => {
 
   useEffect(() => {
     async function fetchData() {
-      let res = await fetch(weather.url);
-      res = await res.json();
-      setState({
-        city: res.name,
-        temp: res.main.temp,
-        description: res.weather[0].description
-          .toLowerCase()
-          .split(' ')
-          .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-          .join(' '),
-      });
+      try {
+        let res = await fetch(weather.url);
+        res = await res.json();
+        setState({
+          city: res.name,
+          temp: res.main.temp,
+          description: res.weather[0].description
+            .toLowerCase()
+            .split(' ')
+            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(' '),
+        });
+      } catch (err) {
+        console.log('Error Fetching: ', err);
+      }
     }
     fetchData();
   }, []);
@@ -31,19 +35,19 @@ const Contact = () => {
         <SocialIcon
           url='https://www.linkedin.com/in/eduardo-graziano-7795ab166/'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60, marginRight: '1rem' }}
         />
         <SocialIcon
           url='https://github.com/Eddy98'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60, marginRight: '1rem' }}
         />
         <SocialIcon
           url='mailto:eduardodgraziano@gmail.com'
           target='_blank'
-          bgColor='#766f5f'
+          bgColor='#dbc923'
           style={{ height: 60, width: 60 }}
         />
       </Col>
@@ -54,7 +58,7 @@ const Contact = () => {
               <></>
             ) : (
               <>
-                {state && (
+                {Object.keys(state).length > 0 && (
                   <WeatherWrapper>
                     <WeatherText>
                       {`What's the weather like in ${state.city}?`}

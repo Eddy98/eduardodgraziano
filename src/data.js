@@ -30,16 +30,28 @@ const data = {
     body: [
       {
         company: 'American Express',
+        title: 'Engineer II',
+        link: 'https://www.americanexpress.com/',
+        description: [
+          'Worked on multiple features and bug fixes for the non-card lending acquisition oraganization utilizing a React, NodeJS, and Java tech stack',
+          'Acted as a key developer on priority features, contributing to end to end integration with dependent teams',
+          'Performed discovey work to plan the build process and identify requirements of new features like our migration to java based framework for our back-end',
+          'Proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization tools to become well versed in the SDET model of development and testing.',
+          'Deployed applications to production environments by utilizing the CI/CD pipeline.',
+          'Acted as a mentor to new hires and interns through coffee chats, onboarding tech talks, and 1:1 career development conversations',
+        ],
+      },
+      {
+        company: 'American Express',
         title: 'Engineer III',
         link: 'https://www.americanexpress.com/',
         description: [
           'Worked on multiple features and bug fixes for the non-card lending organization & the international card applications using Javascript, React, NodeJS',
           'Completed code refactors in different codebases in order to improve code quality and reduce redundant code',
-          'Contributed to innovation features to improve some technical aspects of our applications',
+          'Contributed to innovation features to improve technical aspects of our applications such as HTTP-based mocking for our application, improving end-to-end testing and automation',
           'Developed testing suites for the front-end and back-end, involving unit test and automation scripts to ensure code reliability using Jest, Webdriver.io, Selenium, Cucumber',
           'Deployed applications to production environments by utilizing the CI/CD pipeline',
           'Acted temporarily as Scrum Master while still holding my engineeting responsabilties, leading Agile ceremonies and team planning, and collaborating with Product Owner and Tech Lead',
-          'Proficient in QA responsibilities such as manual testing, automation testing and regression testing, following SDET model of development and testing',
           'Participated in Hackathons and innovation events',
         ],
       },
