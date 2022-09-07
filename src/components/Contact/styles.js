@@ -17,7 +17,7 @@ const WeatherText = styled.p`
   font-family: 'Nunito';
   margin: 0 0 1rem;
   text-align: right;
-  color: white;
+  color: black;
 `;
 
 export { Wrapper, WeatherWrapper, WeatherText };
